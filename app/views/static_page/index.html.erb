@@ -104,10 +104,9 @@
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../../images/portfolio/fullsize/1.jpg" class="portfolio-box">
-                    <a <%= image_tag "1.jpg", class: 'portfolio-box' %>>
-                        <img src="../../images/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <%= image_tag "1.jpg", class: "img-responsive" %>
+                    <a href="portfolio/fullsize/1.jpg", class="portfolio-box">
+                        
+                        <%= image_tag "portfolio/thumbnails/1.jpg", class: 'img-responsive' %>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -121,8 +120,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../../assets/images/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="../../img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <a href="portfolio/fullsize/2.jpg", class="portfolio-box">
+                        <%= image_tag "portfolio/thumbnails/2.jpg", class: 'img-responsive' %>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -136,8 +135,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a <%= image_tag "3.jpg", class: 'portfolio-box' %>>
-                        <img src="../../images/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                    <a href="portfolio/fullsize/3.jpg", class="portfolio-box">
+                        <%= image_tag "portfolio/thumbnails/3.jpg", class: 'img-responsive' %>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -151,8 +150,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../../images/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="../../images/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                    <a href="portfolio/fullsize/4.jpg", class="portfolio-box">
+                        <%= image_tag "portfolio/thumbnails/4.jpg", class: 'img-responsive' %>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -166,8 +165,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../../images/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="../../images/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                    <a href="portfolio/fullsize/5.jpg", class="portfolio-box">
+                        <%= image_tag "portfolio/thumbnails/5.jpg", class: 'img-responsive' %>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -181,8 +180,9 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="../../images/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="../../images/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                    <a href="portfolio/fullsize/6.jpg", class="portfolio-box">
+                    
+                        <%= image_tag "portfolio/thumbnails/6.jpg", class: 'img-responsive' %>
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -229,23 +229,17 @@
     </section>
 
     <!-- jQuery -->
-    <script src="../../vendor/jquery/jquery.min.js"></script>
     <%= javascript_include_tag "jquery.js" %>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <%= javascript_include_tag "bootstrap.js" %>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <%= javascript_include_tag "http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" %>
     <%= javascript_include_tag "scrollreveal.js" %>
     <%= javascript_include_tag "jquery.magnific-popup.js" %>
 
     <!-- Theme JavaScript -->
-    <script src="javascripts/creative.js"></script>
     <%= javascript_include_tag "creative.js" %>
 
 <%= yield %>
